@@ -15,7 +15,18 @@
     <p>
       Además, Angular proporciona un sistema de módulos y herramientas como Angular CLI, simplificando la creación, prueba y despliegue de aplicaciones. Estas características lo destacan como una opción preferida para el desarrollo web moderno.
     </p>
+    
+    @defer (on viewport){
+      <app-comments></app-comments>
+    } @placeholder {
+      <p>.</p>
+    } @loading {
+      <p>Cargando comentarios...</p>
+    }
+    
   </div>
+
+  
   
 
 <!-- <router-outlet /> -->
